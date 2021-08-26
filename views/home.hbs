@@ -1,0 +1,16 @@
+<ul class="row list-group">
+  {{#events}}
+    <li class="col-6 list-group-item">
+        <div class="row">
+        <div  class="col">
+        <h3>{{ title }}</h2>
+        <p>{{ description }}</p>
+        <button type="button" class="btn btn-primary"> <i class="bi bi-hand-thumbs-up"></i> Like </button> 
+        </div>
+        <div  class="col">
+        <img src="{{image}}" alt="No Image Found" class="img-thumbnail" style="height:100px">
+        </div>
+        </div>
+    </li>
+  {{/events}}
+</ul>
